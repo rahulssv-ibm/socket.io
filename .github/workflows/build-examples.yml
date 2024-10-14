@@ -34,6 +34,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
+          architecture: ppc64le
 
       - name: Build ${{ matrix.example }}
         run: |
